@@ -1,0 +1,243 @@
+.home{
+    position: relative;
+    height: 95vh;
+    background-image: url("../images/events-heavenly-header.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: white;
+    background-size: cover;
+}
+body{
+    background-color: #FFF;
+}
+.home-layer{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(214, 46, 51, 0.6);
+}
+.home-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Playwrite NG Modern", cursive;
+}
+.links{
+    background-color: black;
+    height: 80vh !important;
+}
+.home-content h2{
+    font-size: 45px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.icon1{
+    font-size: 20px;
+    
+}
+
+.sideBar{
+    position: fixed;
+    height: 100%;
+    background-color: rgb(138, 104, 104);
+    width: 15%;
+    display: none;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+}
+.side-content{
+    position: absolute;
+    top: 10%;
+}
+.side-content p{
+    margin: 30px;
+    font-size: 24px;
+    font-weight:800;
+}
+.side-content p:hover{
+color:rgb(128, 28, 31); 
+}
+.myLinks{
+    font-size: 25px !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    padding: 10px !important;
+}
+.side-content .first-link {
+    position: absolute;
+    color: #000000;
+    left: 120%;
+    top: -22%;
+    font-size: 50px;
+    text-decoration: none;
+    
+}
+.side-content .first-link:hover{
+    color: rgb(128, 28, 31); 
+}
+.nav-item{
+    padding: 10px;
+    font-weight: bold;
+}
+.nav-item:hover{
+     color: rgb(128, 28, 31);
+}
+
+.open{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    align-items:center;
+    left: 1%;
+    cursor: pointer;
+
+}
+.open p{
+    margin-top: 8px;
+   
+}
+.title{
+    cursor: pointer;
+    background-color: rgb(230, 130, 133);
+    color: white;
+    padding: 10px;
+}
+.paragrapg{
+    background-color: rgb(204, 204, 204);
+    padding: 10px;}
+
+#paragraphs{
+    margin: 100px auto;
+    width: 50%;
+}
+.counter{
+    background-image: url("../images/invitation-2508607__340.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    position: relative;
+    height: 330px;
+    z-index: -1;
+}
+.counter-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(214, 46, 51, 0.6);
+    color: white;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.card{
+    position: absolute;
+    margin-top: 40px;
+    text-align: center;
+    padding: 50px;
+    margin: auto;
+    border: 1px solid #FFF !important;
+    font-weight: 500;
+    top: 100px;
+    font-size: 30px;
+    background-color: transparent !important;
+    color: rgb(255, 255, 255) !important;
+}
+
+.contact-header{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    color: rgb(68, 68, 68);    
+    background-color: transparent;
+}
+.contact-p{
+    color: rgb(132, 134, 132);
+}
+.contact-subParagraph {
+    font-size: 16px;
+    line-height: 26px;
+    color: #777;
+    text-align: center;
+}
+
+.icons{
+    margin-left: 20px;
+    color: #999;
+}
+.contacts-link{
+    transform: translateX(50px);
+}
+.socil-icons i {
+    margin: 10px;
+    width: 40px;
+    height: 40px;
+    line-height: 42px;
+    cursor: pointer;
+    text-align: center;
+    border: 1px solid #999;
+    border-radius: 5px;
+}
+.socil-icons i:hover{
+    background-color: rgb(214, 46, 51);
+    color: white;
+   
+}
+.iconss{
+    transform: translateX(160px);
+}
+.p-color{
+    color: rgb(222, 46, 51);
+}
+.centter{
+    margin: 6px;
+}
+button{
+    background-color:rgb(214, 46, 51) !important ;
+    color: white !important;
+    margin: 20px 0px !important;
+}
+.my-span{
+    color: rgb(222, 46, 51);
+}
+@media (max-width: 575.98px) {
+
+    .sideBar{
+        width: 30%;
+    }
+    .open{
+        left: 1%;
+        top: 2%;
+    }
+    .side-content .first-link {
+    left: 60%;
+    top: -10%;
+    }
+    .paragraphs{
+        width: 100% !important;
+        padding: 0 !important;
+        
+    }
+    .counter{
+        height: 750px;
+    }
+    .iconss{
+        transform: translateX(80px)
+    }
+    .contacts-link{
+        transform: translateX(10px)
+    }
+
+}
